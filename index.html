@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOAT BOX</title>
+    <style>
+        .container {
+            background-color: grey;
+            width: 60%;
+            margin: 20%;
+            padding: 10px 20px;
+            margin-top: 50px;
+            display: inline-block;
+        }
+        .float-box {
+            background-color: orange;
+            margin: 5px 0;
+            width: 100%;
+            float: left;
+        }
+        .float-box div {
+            box-sizing: border-box;
+            font-size: 60px;
+            background-color: greenyellow;
+            margin: 10px;
+            padding: 40px 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="float-box">
+            <div style="float: left;">1</div>
+            <div style="float: left;">2</div>
+            <div style="float: left;">3</div>
+        </div>
+        <div class="float-box">
+            <div style="float: left;">1</div>
+            <div style="float: right;">2</div>
+            <div style="float: left;">3</div>
+        </div>
+        <div class="float-box">
+            <div style="float: left;">1</div>
+            <div style="float: left;">2</div>
+            <div style="float: right;">3</div>
+        </div>
+        <div class="float-box">
+            <div style="float: right;">1</div>
+            <div style="float: right;">2</div>
+            <div style="float: right;">3</div>
+        </div>
+        <div class="float-box">
+            <div style="float: right;">1</div>
+            <div style="float: left;">2</div>
+            <div style="float: right;">3</div>
+        </div>
+        <div class="float-box">
+            <div style="float: right;">1</div>
+            <div style="float: right;">2</div>
+            <div style="float: left;">3</div>
+        </div>
+        
+    </div> 
+</body>
+</html>
