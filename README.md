@@ -1,3 +1,5 @@
+![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+
 # HW Exploring Floats
 
 _35 group website project_
@@ -11,6 +13,7 @@ Site published at: https://Kristle22.github.io/hw-explore-floats
 -   Github pages
 -   HTML
 -   CSS: float, width
+-   favicon
 
 ## Authors
 
