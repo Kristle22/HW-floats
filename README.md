@@ -6,7 +6,7 @@ _35 group website project_
 
 This is homework project on CSS float property.
 
-Site published at: https://Kristle22.github.io/hw-explore-floats
+Site published at: https://Kristle22.github.io/HW-floats
 
 ## Project features
 
